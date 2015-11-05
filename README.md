@@ -1,6 +1,6 @@
 # insert-timestamp package
 
-This package will insert timestamp or DateT&time to your cursor position
+This package will insert timestamp or date&time to your cursor position
 
 insert datatime:
 11/5/2015, 4:04:41 PM
