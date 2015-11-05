@@ -1,0 +1,30 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'insert-timestamp date&time'
+      'command': 'insert-timestamp:DateT'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'insert-timestamp'
+      'submenu': [
+        {
+          'label': 'insert datetime'
+          'command': 'insert-timestamp:DateT'
+        },
+        {
+          'label': 'insert unix timestamp (10 place for python)'
+          'command': 'insert-timestamp:tpython'
+        },
+        {
+          'label': 'insert unix timestamp (13 place for other)'
+          'command': 'insert-timestamp:tunix'
+        }
+      ]
+    ]
+  }
+]
