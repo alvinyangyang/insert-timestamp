@@ -2,7 +2,10 @@ InsertTimestampView = require './insert-timestamp-view'
 {CompositeDisposable} = require 'atom'
 
 module.exports = InsertTimestamp =
-
+  InsertTimestampView: null
+  modalPanel: null
+  subscriptions: null
+  
   activate: (state) ->
     atom.commands.add 'atom-workspace', 'insert-timestamp:tunix': => @tunix()
     atom.commands.add 'atom-workspace', 'insert-timestamp:tpython': => @tpython()
