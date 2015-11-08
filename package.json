@@ -5,6 +5,8 @@
   "description": "This package will insert timestamp or date&time to your cursor position",
   "keywords": [
       "timestamp"
+      "date"
+      "time"
   ],
   "activationCommands": {
     "atom-workspace": "insert-timestamp:tunix",
@@ -14,11 +16,20 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alvinyangyang/insert-timestamp.git"
-  },  
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "contributors": [
+  {
+    "name": "alvinyangyang",
+    "email": "xyy_yj@hotmail.com"
+  }
+],
+"bugs": {
+  "url": "https://github.com/alvinyangyang/insert-timestamp/issues"
+},
   "dependencies": {
   }
 }
