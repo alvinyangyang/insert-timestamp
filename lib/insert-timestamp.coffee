@@ -1,4 +1,4 @@
-# InsertTimestampView = require './insert-timestamp-view'
+InsertTimestampView = require './insert-timestamp-view'
 {CompositeDisposable} = require 'atom'
 
 module.exports = InsertTimestamp =
