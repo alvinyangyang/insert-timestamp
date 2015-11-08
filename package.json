@@ -11,7 +11,10 @@
     "atom-workspace": "insert-timestamp:tpython",
     "atom-workspace": "insert-timestamp:DateT"
   },
-  "repository": "https://github.com/atom/insert-timestamp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvinyangyang/insert-timestamp.git"
+  },  
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
