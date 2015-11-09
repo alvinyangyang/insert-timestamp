@@ -21,7 +21,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "contributors": [
+  "author": [
     {
       "name": "alvinyangyang",
       "email": "xyy_yj@hotmail.com"
