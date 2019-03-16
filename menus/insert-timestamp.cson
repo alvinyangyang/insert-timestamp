@@ -24,6 +24,10 @@
           'label': 'insert unix timestamp (13 place for other)'
           'command': 'insert-timestamp:tunix'
         }
+        {
+          'label': 'insert ISO8601 timestamp (YYYY-MM-DDTHH:mm:ss)'
+          'command': 'insert-timestamp:tISO8601'
+        }
       ]
     ]
   }
