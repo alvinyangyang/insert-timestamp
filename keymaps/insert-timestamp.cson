@@ -11,3 +11,4 @@
   'ctrl-alt-shift-u': 'insert-timestamp:tpython'
   'ctrl-alt-shift-j': 'insert-timestamp:tunix'
   'ctrl-alt-shift-t': 'insert-timestamp:DateT'
+  'ctrl-alt-shift-n': 'insert-timestamp:tISO8601'

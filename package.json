@@ -1,7 +1,7 @@
 {
   "name": "insert-timestamp",
   "main": "./lib/insert-timestamp",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "This package will insert timestamp or date&time to your cursor position",
   "keywords": [
       "timestamp",
@@ -24,7 +24,7 @@
   "author": [
     {
       "name": "alvinyangyang",
-      "email": "xyy_yj@hotmail.com"
+      "email": "imagine.alvin.yang@qq.com"
     }
   ],
   "bugs": {
