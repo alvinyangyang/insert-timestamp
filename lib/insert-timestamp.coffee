@@ -27,4 +27,4 @@ module.exports = InsertTimestamp =
 
   tISO8601: ->
     editor = atom.workspace.getActivePaneItem()
-    editor.insertText(Date.parse(new Date()).toString("yyyy'-'MM'-'dd'T'HH':'mm':'ss"))
+    editor.insertText(new Date().toISOString())
